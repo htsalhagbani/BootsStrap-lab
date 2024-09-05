@@ -1,0 +1,21 @@
+.nav-link.dropdown-toggle::after {
+    display: none;
+}
+
+.divider {
+    position: relative;
+    text-align: center;
+    margin: 20px 0;
+}
+.divider hr {
+    border: 0;
+    border-bottom: 1px solid #787a7c; /* Line color */
+    margin: 0; /* Remove default margins */
+    width: 100%;
+}
+.divider span {
+    position: relative;
+    padding: 0 4px;
+    background: #fff; /* Match the background color of your container */
+    color: #000; /* Text color */
+}
